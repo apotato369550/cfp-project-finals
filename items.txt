@@ -1,0 +1,6 @@
+Potato;A starchy, yellow, versatile vegetable;39;10.000000
+Apple;A bright, red fruit. Very sweet and juicy;93;13.000000
+Strawberry;A unique delicacy. Grown in places that are cold;62;25.000000
+Watermelon;Green on the outside, juicy and red on the inside, a summertime favorite;32;40.000000
+Durian;Stinks... Really bad;13;23.000000
+Avocado;Full of healthy fats. Good for making guacamole;33;17.000000

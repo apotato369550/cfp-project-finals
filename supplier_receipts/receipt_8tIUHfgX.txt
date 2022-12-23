@@ -1,0 +1,12 @@
+Transaction ID:         8tIUHfgX
+
+Date of transaction: Sat Dec 03 21:31:58 2022
+
+Items sold: 
+
+-------------------------------------
+Date: Sat Dec 03 21:31:58 2022 Type:  SELL Item:        apple Quantity:   1 Price:  9.00 PHP
+
+-------------------------------------
+
+Total Price: 9.00 PHP

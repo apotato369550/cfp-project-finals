@@ -1,0 +1,14 @@
+Transaction ID: OhHNqKl
+
+Date of transaction: Sun Dec 04 17:31:46 2022
+
+Items purchased: 
+
+-------------------------------------
+Date: Sun Dec 04 17:31:46 2022 Type:   BUY Item:        Apple Quantity:   3 Price: 39.00 PHP
+
+-------------------------------------
+
+Cash received: 100.00
+Change dispensed: 61.00
+Total Price: 39.00 PHP

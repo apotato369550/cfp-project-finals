@@ -1,0 +1,46 @@
+# Project: final_project_submission
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o customer_actions.o items.o manager_actions.o supplier_actions.o transactions.o art.o
+LINKOBJ  = main.o customer_actions.o items.o manager_actions.o supplier_actions.o transactions.o art.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = final_project_submission.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+customer_actions.o: customer_actions.c
+	$(CC) -c customer_actions.c -o customer_actions.o $(CFLAGS)
+
+items.o: items.c
+	$(CC) -c items.c -o items.o $(CFLAGS)
+
+manager_actions.o: manager_actions.c
+	$(CC) -c manager_actions.c -o manager_actions.o $(CFLAGS)
+
+supplier_actions.o: supplier_actions.c
+	$(CC) -c supplier_actions.c -o supplier_actions.o $(CFLAGS)
+
+transactions.o: transactions.c
+	$(CC) -c transactions.c -o transactions.o $(CFLAGS)
+
+art.o: art.c
+	$(CC) -c art.c -o art.o $(CFLAGS)

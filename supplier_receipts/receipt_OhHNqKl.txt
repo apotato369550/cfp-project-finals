@@ -1,0 +1,12 @@
+Transaction ID: OhHNqKl
+
+Date of transaction: Sun Dec 04 17:35:55 2022
+
+Items sold: 
+
+-------------------------------------
+Date: Sun Dec 04 17:35:55 2022 Type:  SELL Item:        Apple Quantity:   3 Price: 27.00 PHP
+
+-------------------------------------
+
+Total Price: 27.00 PHP
